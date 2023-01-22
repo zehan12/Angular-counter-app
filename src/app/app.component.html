@@ -1,0 +1,24 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div>
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+
+  <h2>Count: {{count}}</h2>
+  <div class="row">
+    <div class="col-lg-4">
+      <button (click)="handleReset()" class="btn btn-normal">Reset</button>
+    </div>
+    <div class="col-lg-4">
+      <button (click)="handleIncrement()" class="btn btn-success">
+        Increment
+      </button>
+    </div>
+    <div class="col-lg-4">
+      <button (click)="handleDecrement()" class="btn btn-danger">
+        Decrement
+      </button>
+    </div>
+  </div>
+  <p>created by <b>{{author}}</b></p>
+</div>
